@@ -1,0 +1,248 @@
+@font-face{
+    font-family: BebasNeueBold;
+    src: url('/fonts/bebas/BebasNeueBold.otf'),
+         url('/fonts/bebas/BebasNeueBold.ttf');
+}
+
+@font-face{
+    font-family: HelveticaLT;
+    src: url('/fonts/helvetica/helveticaltstd-lightcond.otf')
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    float: left;
+}
+
+.header {
+    height: 316px;
+    border-bottom: 1px solid #f8f6f6;
+    background: #FFFFFF;
+}
+
+.container {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header_logo {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+}
+
+
+.header_logo_text {
+    margin: 37px 0 0 0;
+    font-family: BebasNeueBold;
+    color:  #404040;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: justify;
+}
+
+.header_logo_text_desc {
+    margin: 5px 0 0 0;
+    font-family: Arial;
+    color:  #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: justify;
+}
+
+.header_menu {
+    float: right;
+}
+.clr {
+    clear: both;
+}
+
+.header_menu ul {
+    margin: 0;
+}
+
+.header_menu ul li {
+    display: block;
+    float: left;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    padding: 17px;
+    height: 31px;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: justify;
+    display: block;
+}
+
+.header_menu_btn {
+    color: #404040;
+}
+
+.header_menu_btn_active,
+.header_menu_btn:hover {
+    background-color: #12b7ff;
+    color: #ffffff;
+}
+
+.header_menu_cart {
+    display: block;
+    float: right;
+    margin: 10px;
+    line-height: 70px;
+    font-size: 30px;
+    color: #12b7ff;
+}
+
+.header_quote {
+    position: relative;
+    margin: 0 auto;
+    width: 774px;
+}
+
+.header_quote_el {
+    color: #d5d5d5;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.header_quote_text_normal {
+    font-family: Cambria;
+    color:  #404040;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: center;
+}
+
+.header_quote_text_right {
+    font-size: 18px;
+    text-align: right;
+}
+
+main {
+    min-height: 600px;
+}
+
+.main_container {
+    position: relative;
+    width: 934px;
+    margin: 0 auto;
+    padding: 84px;
+}
+
+h1, h2 {
+    font-family: Arial;
+    color:  #404040;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 36px;
+}
+
+.main_container_popular_item {
+    position: relative;
+    width: 208px;
+    float: left;
+    margin: 16px 24px 16px 0;
+    padding-bottom: 30px;
+}
+
+.main_container_popular_item_data {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.main_container_popular_item_data>h3,
+.main_container_popular_item_data>p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.main_container_popular_item:hover {
+    background-color: #ffffff;
+    box-shadow: 2px 4px 15.36px 0.64px rgba(128, 127, 127, 0.13);
+    border-radius: 3px;
+}
+
+.main_container_popular_item_data>img {
+    width: 208px;
+    height: 205px;
+}
+
+.main_container_popular_item_buy {
+    text-decoration: none;
+    display: block;
+    background: #12b7ff;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    width: inherit;
+    bottom: 0;
+}
+
+.main_container_popular_item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.social_block {
+    background-color: #4e4d4d;
+}
+
+.social_block_item {
+    float: left;
+    width: 340px;
+    height: 150px;
+    text-align: center;
+}
+
+
+.social_block_bg_vk {
+    background-color: #3b5997;
+}
+
+.social_block_bg_tw {
+    background-color: #3fccfd;
+}
+
+.social_block_bg_twit {
+    background-color: #cb2027;
+}
+
+.social_block_item div {
+    display: block;
+    text-decoration: none;
+    margin-top: 38px;
+    color: white;
+    font-size: 68px;
+}
+
+footer {
+    background-color: #282828;
+    height: 39px;
+}
+
+footer>.container>p {
+    font-family: PTSans;
+    color: #949494;
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 3em;
+    text-align: left;
+    margin: 0px;
+    float: right;
+}
