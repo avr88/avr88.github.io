@@ -1,12 +1,12 @@
 @font-face{
     font-family: BebasNeueBold;
-    src: url('/fonts/bebas/BebasNeueBold.otf'),
-         url('/fonts/bebas/BebasNeueBold.ttf');
+    src: url('../fonts/bebas/BebasNeueBold.otf'),
+         url('../fonts/bebas/BebasNeueBold.ttf');
 }
 
 @font-face{
     font-family: HelveticaLT;
-    src: url('/fonts/helvetica/helveticaltstd-lightcond.otf')
+    src: url('../fonts/helvetica/helveticaltstd-lightcond.otf')
 }
 
 body {
@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-    height: 316px;
     border-bottom: 1px solid #f8f6f6;
     background: #FFFFFF;
 }
@@ -30,10 +29,32 @@ body {
 
 .header_logo {
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 22px;
 }
 
+.header_right_info {
+    padding: 15px;
+    float: right;
+}
+
+
+.header_right_info_phone,
+.header_right_info_cart {
+    display: block;
+    float: left;
+    font-size: 30px;
+    color: #12b7ff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header_right_info_phone span{
+    display: inline-block;
+    padding-left: 5px;
+    color: #000;
+    font-family: BebasNeueBold;
+}
 
 .header_logo_text {
     margin: 37px 0 0 0;
@@ -93,15 +114,6 @@ body {
     color: #ffffff;
 }
 
-.header_menu_cart {
-    display: block;
-    float: right;
-    margin: 10px;
-    line-height: 70px;
-    font-size: 30px;
-    color: #12b7ff;
-}
-
 .header_quote {
     position: relative;
     margin: 0 auto;
@@ -133,6 +145,7 @@ body {
 
 main {
     min-height: 600px;
+    background: #f8f6f6;
 }
 
 .main_container {
@@ -140,6 +153,7 @@ main {
     width: 934px;
     margin: 0 auto;
     padding: 84px;
+    background: #fff;
 }
 
 h1, h2 {
@@ -156,6 +170,8 @@ h1, h2 {
     float: left;
     margin: 16px 24px 16px 0;
     padding-bottom: 30px;
+    border: 1px solid #bfbaba;
+    border-radius: 3px;
 }
 
 .main_container_popular_item_data {
@@ -172,8 +188,8 @@ h1, h2 {
 
 .main_container_popular_item:hover {
     background-color: #ffffff;
-    box-shadow: 2px 4px 15.36px 0.64px rgba(128, 127, 127, 0.13);
-    border-radius: 3px;
+    box-shadow: 1px 4px 15.36px 0.64px rgba(12, 12, 12, 0.6);
+    border-radius: 2px;
 }
 
 .main_container_popular_item_data>img {
@@ -186,13 +202,13 @@ h1, h2 {
     display: block;
     background: #12b7ff;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 2px;
     color: white;
     height: 30px;
     line-height: 30px;
     position: absolute;
     width: inherit;
-    bottom: 0;
+    bottom: -1px;
 }
 
 .main_container_popular_item:nth-child(4n) {
@@ -200,7 +216,7 @@ h1, h2 {
 }
 
 .social_block {
-    background-color: #4e4d4d;
+    background-color: #282828;
 }
 
 .social_block_item {
@@ -242,7 +258,7 @@ footer>.container>p {
     font-size: 12.5px;
     font-weight: 400;
     line-height: 3em;
-    text-align: left;
-    margin: 0px;
+    text-align: center;
     float: right;
+    margin: 0 4px 0 0;
 }
