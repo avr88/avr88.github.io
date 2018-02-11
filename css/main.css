@@ -211,7 +211,9 @@ h1, h2 {
 }
 
 .main_container_item_description {
-    font-family: Arial;
+    font-family: HelveticaLT;
+    font-size: 18px;
+    text-indent: 20px;
 }
 
 .main_container_short_cat_item_data {
@@ -349,10 +351,27 @@ footer>.container>p {
 
 .main_container_breadcrumbs {
     font-size: 14px;
-    color: #034765;
+    color: #999;
 }
 
 .breadcrumbs_item {
-    color: #034765;
+    color: #999;
     text-decoration: none;
+}
+
+.main_container_contacts {
+    display: block;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.main_container_contacts>i {
+    color: #47a841;
+    font-size: 22px;
+    padding: 0 20px;
+    width: 30px;
+}
+
+.main_container_contacts>span {
+    color: #000;
 }
