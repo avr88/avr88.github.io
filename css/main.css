@@ -15,7 +15,6 @@ body {
     min-width: 100%;
     float: left;
     background-image: url("../img/bg.jpg");
-    width: 100%;
     background-size: cover;
 }
 
